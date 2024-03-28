@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    background-color: rgb(68, 64, 64); /* Culoare de fundal a footer-ului */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.footer span{
+    margin-right: 20px;
+}
+
+.footer-links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links li {
+    margin: 0 10px; /* Spațiu între link-uri */
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,36 @@
+.slide{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.slide img{
+    object-fit: cover;
+}
+
+.slick-prev{
+    left: 25px;
+}
+
+.sick-next{
+    right: 25px;
+}
+
+.container{
+    max-height: 1280px;
+    display: flex;
+    justify-content: space-between;
+}
+.container_block{
+    width: 48%; 
+    padding: 80px 20px;
+    max-width: 600px; 
+    box-sizing: border-box; 
+    margin-bottom: 20px; 
+}
+
+.container_block img{
+    max-width: 100%;
+    height: auto;
+}

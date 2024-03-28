@@ -1,0 +1,7 @@
+.block{
+    width: 48%; /* 48% pentru a acoperi 50% din container cu spațiu între blocuri */
+    padding: 80px 20px;
+    max-width: 600px; /* Ajustați dimensiunea maxima a containerului conform cerințelor */
+    box-sizing: border-box; /* Asigurați-vă că padding-ul este inclus în dimensiunea blocului */
+    margin-bottom: 20px; /* Spațiu între blocuri */
+}
